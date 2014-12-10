@@ -1,0 +1,11 @@
+PASS	Basic Statistics	PiuraChilensis_Coquimbo_trimmer_out.fastq
+WARN	Per base sequence quality	PiuraChilensis_Coquimbo_trimmer_out.fastq
+PASS	Per sequence quality scores	PiuraChilensis_Coquimbo_trimmer_out.fastq
+PASS	Per base sequence content	PiuraChilensis_Coquimbo_trimmer_out.fastq
+PASS	Per base GC content	PiuraChilensis_Coquimbo_trimmer_out.fastq
+FAIL	Per sequence GC content	PiuraChilensis_Coquimbo_trimmer_out.fastq
+PASS	Per base N content	PiuraChilensis_Coquimbo_trimmer_out.fastq
+WARN	Sequence Length Distribution	PiuraChilensis_Coquimbo_trimmer_out.fastq
+WARN	Sequence Duplication Levels	PiuraChilensis_Coquimbo_trimmer_out.fastq
+WARN	Overrepresented sequences	PiuraChilensis_Coquimbo_trimmer_out.fastq
+WARN	Kmer Content	PiuraChilensis_Coquimbo_trimmer_out.fastq
