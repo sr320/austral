@@ -1,6 +1,12 @@
 #Using iPlant Discovery Environment for RNA-seq
 
 Goal: Use RNA-seq to compare expression between oysters (n=3) pre and post heat shock.
+___
+
+>Based on IPlant Collaborative Tutorial 
+[<img src="http://eagle.fish.washington.edu/cnidarian/skitch/RNA-Seq_tutorial_-_Education__Outreach__and_Training_-_iPlant_Collaborative_Wiki_1A45D493.png" alt="RNA-Seq_tutorial_-_Education__Outreach__and_Training_-_iPlant_Collaborative_Wiki"/>](https://pods.iplantcollaborative.org/wiki/display/eot/RNA-Seq_tutorial)
+
+___
 
 ####Task 1: Align read data to _Crassostrea gigas_ genome.
 
@@ -21,4 +27,20 @@ Goal: Use RNA-seq to compare expression between oysters (n=3) pre and post heat 
 
 7) Once complete....
 
+- Note this takes ~10 hours 
+
 ####Task 2: Assemble transcripts using **Cufflinks2**
+
+1) Open **Cufflinks2**
+
+2) For **Input Data** add the six bam files from the `bam` subdirectory of the TopHat2 output.
+
+3) Under **Reference Sequence** use custom option select `/austral-data/Crassostrea_gigas.GCA_000297895.1.24.dna_sm.toplevel.fa` 
+
+4) For **Reference Annoations** add the GTF file `/austral-data/Crassostrea_gigas.GCA_000297895.1.24.gtf`
+
+5) Click **Launch Analyses** and monitor the status of you job.
+
+
+####Task 3: Merge all Cufflinks transcripts into a single transcriptome annotation file using Cuffmerge
+
