@@ -29,6 +29,9 @@ ___
 
 - Note this takes ~10 hours 
 
+---
+
+
 ####Task 2: Assemble transcripts using **Cufflinks2**
 
 1) Open **Cufflinks2**
@@ -41,6 +44,7 @@ ___
 
 5) Click **Launch Analyses** and monitor the status of you job.
 
+---
 
 ####Task 3: Merge all Cufflinks transcripts into a single transcriptome annotation file using Cuffmerge
 
