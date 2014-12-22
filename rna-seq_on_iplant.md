@@ -5,6 +5,7 @@ ___
 
 >Based on IPlant Collaborative Tutorial
 [<img src="http://eagle.fish.washington.edu/cnidarian/skitch/RNA-Seq_tutorial_-_Education__Outreach__and_Training_-_iPlant_Collaborative_Wiki_1A45D493.png" alt="RNA-Seq_tutorial_-_Education__Outreach__and_Training_-_iPlant_Collaborative_Wiki"/>](https://pods.iplantcollaborative.org/wiki/display/eot/RNA-Seq_tutorial)
+<https://pods.iplantcollaborative.org/wiki/display/eot/RNA-Seq_tutorial>
 
 ___
 
@@ -71,6 +72,7 @@ Cuffdiff is a program that uses the Cufflinks transcript quantification engine t
 <img src="http://eagle.fish.washington.edu/cnidarian/skitch/_39__Discovery_Environment_1A462B43.png" alt="_39__Discovery_Environment_1A462B43.png"/>
 
 For Sample 2 enter post and add other three bam files ...
+
 <img src="http://eagle.fish.washington.edu/cnidarian/skitch/_39__Discovery_Environment_1A462B91.png" alt="_39__Discovery_Environment_1A462B91.png"/>
 
 2) Next, open the **Reference Annotations** section and add a custom reference annotation file using the `merged_with_ref_ids.gtf` file from the cuffmerge output folder. 
