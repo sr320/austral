@@ -17,6 +17,7 @@ Before course begins, students should obtain accounts for the following services
 
 * [GitHub](
 * iPlant
+* SQLShare
 
 
 Please review content below
@@ -29,5 +30,14 @@ Please review content below
 
 
 _Optional_     
-Below are 
+Below are recommended software / services that I believe are useful and we will cover in come degree during the course.
+
+* IPython
+* Colaboroty Juptyer
+* R
+* IGV
+* Git
+* TextWranger (Mac)
+* Galaxy
+* 
 
