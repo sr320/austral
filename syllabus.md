@@ -35,7 +35,7 @@ Below are recommended software / services that I believe are useful and we will 
 * IPython
 * Colaboroty Juptyer
 * R
-* IGV
+* IGV (registration required)
 * Git
 * TextWranger (Mac)
 * Galaxy
