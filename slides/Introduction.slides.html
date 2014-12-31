@@ -1726,7 +1726,7 @@ div.output_prompt {
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="physiological-response-of-marine-organisms-to-environmental-change-from-a-genomic-perspective">Physiological response of marine organisms to environmental change from a genomic perspective</h1>
-<p><em>Instructor</em>:<br />Steven Roberts<br />robertslab.info<br />sr320@uw.edu<br />@sr320</p>
+<p><em>Instructor</em>:<br />Steven Roberts<br />robertslab.info<br />sr320@uw.edu<br /><span class="citation">@sr320</span></p>
 </div>
 </div>
 </div></section>
@@ -1780,7 +1780,7 @@ In&nbsp;[1]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[2]:
+In&nbsp;[]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -1810,14 +1810,12 @@ Recommended version is 1.12.1.
 Try updating.http://johnmacfarlane.net/pandoc/installing.html.
 Continuing with doubts...
   check_pandoc_version()
-[NbConvertApp] Writing 206928 bytes to Introduction.slides.html
+[NbConvertApp] Writing 203579 bytes to Introduction.slides.html
 [NbConvertApp] Redirecting reveal.js requests to https://cdn.jsdelivr.net/reveal.js/2.5.0
 Serving your slides at http://127.0.0.1:8000/Introduction.slides.html
 Use Control-C to stop this server
-WARNING:tornado.access:404 GET /custom.css (127.0.0.1) 1.14ms
-^C
-Interrupted
-
+WARNING:tornado.access:404 GET /custom.css (127.0.0.1) 1.13ms
+WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 1.17ms
 
 </pre>
 </div>
@@ -1925,7 +1923,7 @@ Interrupted
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="basics">Basics</h1>
 <ul>
-<li><h2>Fundamental Physiology</h2></li>
+<li><h2 id="fundamental-physiology">Fundamental Physiology</h2></li>
 </ul>
 </div>
 </div>
@@ -1937,7 +1935,7 @@ Interrupted
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li><h2>Core Computational Skills</h2></li>
+<li><h2 id="core-computational-skills">Core Computational Skills</h2></li>
 </ul>
 </div>
 </div>
@@ -1950,7 +1948,7 @@ Interrupted
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li><h2>Bioinformatic Modules</h2></li>
+<li><h2 id="bioinformatic-modules">Bioinformatic Modules</h2></li>
 </ul>
 </div>
 </div>
@@ -2075,7 +2073,8 @@ In&nbsp;[]:
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <div class="figure">
-<img src="./img/cycle.jpg" alt="cycle" /><p class="caption">cycle</p>
+<img src="./img/cycle.jpg" alt="cycle" />
+<p class="caption">cycle</p>
 </div>
 </div>
 </div>
@@ -2103,7 +2102,8 @@ In&nbsp;[]:
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <div class="figure">
-<img src="./img/integrative.jpg" alt="from cell to environment" /><p class="caption">from cell to environment</p>
+<img src="./img/integrative.jpg" alt="from cell to environment" />
+<p class="caption">from cell to environment</p>
 </div>
 </div>
 </div>
@@ -2130,35 +2130,76 @@ In&nbsp;[]:
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <div class="figure">
-<img src="./img/comparative.jpg" alt="Comparative Physiology" /><p class="caption">Comparative Physiology</p>
+<img src="./img/comparative.jpg" alt="Comparative Physiology" />
+<p class="caption">Comparative Physiology</p>
 </div>
 </div>
 </div>
-</div></section>
-    </section><section>
-    <section>
-    
-<div class="cell border-box-sizing text_cell rendered">
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[16]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>pyline inmp</p>
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">pylab</span> <span class="n">inline</span>
+</pre></div>
+
 </div>
 </div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+Populating the interactive namespace from numpy and matplotlib
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
 </div><div style=display:none>
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[13]:
+In&nbsp;[19]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
 <div class="highlight"><pre><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">Image</span>
+
+<span class="n">Image</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="s">&#39;http://eagle.fish.washington.edu/cnidarian/skitch/comparative_jpg__872×123__1A49D393.png&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[19]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+&lt;IPython.core.display.Image at 0x105de58d0&gt;
+</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -2170,7 +2211,7 @@ In&nbsp;[13]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[15]:
+In&nbsp;[18]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -2186,12 +2227,12 @@ In&nbsp;[15]:
 
 
 <div class="output_area"><div class="prompt output_prompt">
-    Out[15]:</div>
+    Out[18]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
 <pre>
-&lt;IPython.core.display.Image at 0x10488da10&gt;
+&lt;IPython.core.display.Image at 0x105de5790&gt;
 </pre>
 </div>
 
@@ -2246,7 +2287,7 @@ dependencies: [
 
 <!-- Loading mathjax macro -->
 <!-- Load mathjax -->
-    <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
     <!-- MathJax configuration -->
     <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
