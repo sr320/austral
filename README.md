@@ -1,7 +1,7 @@
 
 <img src="http://eagle.fish.washington.edu/cnidarian/skitch/Description_-_Austral_Summer_Institute_XV_1A56F09F.png" alt="Description_-_Austral_Summer_Institute_XV_1A56F09F.png"/>
 
-###Physiological response of marine organisms to environmental change from a genomic perspective
+##Physiological response of marine organisms to environmental change from a genomic perspective
 
 **19-23 January 2015**
 
@@ -55,5 +55,47 @@ Below are recommended software / services that I believe are useful and we will 
 
 ---
 
+#Schedule
 
+##Day 1
+Lecture - Introduction (link)
+
+Core Computational Skill - Setup & Bash
+
+Bioinformatics Module - Intro 
+
+##Day 2
+Lecture - Basics
+
+CCS - SQL
+
+Bioinformatics Module - Assembly-Annotation
+
+##Day 3
+Lecture - Environmental Stress
+
+CCS - R
+
+Bioinformatics Module - RNA-seq
+
+##Day 4
+Lecture - Ocean Acidification
+
+CCS - Git
+
+Bioinformatics Module - Genome Browser
+
+##Day 5
+Lecture - Epigenetics
+
+CCS - 
+
+Bioinformatics Module - DNA Methylation
+
+##Day 6
+Lecture - Disease 
+
+CCS - 
+
+Bioinformatics Module - 
 
