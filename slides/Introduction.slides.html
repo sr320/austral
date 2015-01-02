@@ -1780,7 +1780,7 @@ In&nbsp;[1]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[]:
+In&nbsp;[2]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -1805,17 +1805,49 @@ In&nbsp;[]:
 /Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/filters/markdown.py:78: UserWarning: Node.js 0.9.12 or later wasn&apos;t found.
 Nbconvert will try to use Pandoc instead.
   &quot;Nbconvert will try to use Pandoc instead.&quot;)
-/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/utils/pandoc.py:63: RuntimeWarning: You are using an old version of pandoc (1.11.1)
-Recommended version is 1.12.1.
-Try updating.http://johnmacfarlane.net/pandoc/installing.html.
-Continuing with doubts...
-  check_pandoc_version()
-[NbConvertApp] Writing 203579 bytes to Introduction.slides.html
-[NbConvertApp] Redirecting reveal.js requests to https://cdn.jsdelivr.net/reveal.js/2.5.0
-Serving your slides at http://127.0.0.1:8000/Introduction.slides.html
-Use Control-C to stop this server
-WARNING:tornado.access:404 GET /custom.css (127.0.0.1) 1.13ms
-WARNING:tornado.access:404 GET /favicon.ico (127.0.0.1) 1.17ms
+[NbConvertApp] ERROR | Error while converting &apos;/Users/sr320/git-repos/austral/slides/Introduction.ipynb&apos;
+Traceback (most recent call last):
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/nbconvertapp.py&quot;, line 301, in convert_notebooks
+    output, resources = exporter.from_filename(notebook_filename, resources=resources)
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/exporters/exporter.py&quot;, line 151, in from_filename
+    return self.from_notebook_node(nbformat.read(f, &apos;json&apos;), resources=resources, **kw)
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/exporters/templateexporter.py&quot;, line 215, in from_notebook_node
+    output = self.template.render(nb=nb_copy, resources=resources)
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/jinja2/environment.py&quot;, line 969, in render
+    return self.environment.handle_exception(exc_info, True)
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/jinja2/environment.py&quot;, line 742, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/exporters/../templates/html/slides_reveal.tpl&quot;, line 2, in top-level template code
+    {% from &apos;mathjax.tpl&apos; import mathjax %}
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/exporters/../templates/html/basic.tpl&quot;, line 1, in top-level template code
+    {%- extends &apos;display_priority.tpl&apos; -%}
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/exporters/../templates/skeleton/display_priority.tpl&quot;, line 1, in top-level template code
+    {%- extends &apos;null.tpl&apos; -%}
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/exporters/../templates/skeleton/null.tpl&quot;, line 26, in top-level template code
+    {%- block body -%}
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/exporters/../templates/html/slides_reveal.tpl&quot;, line 155, in block &quot;body&quot;
+    {{ super() }}
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/exporters/../templates/skeleton/null.tpl&quot;, line 29, in block &quot;body&quot;
+    {%- block any_cell scoped -%}
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/exporters/../templates/html/slides_reveal.tpl&quot;, line 8, in block &quot;any_cell&quot;
+    {{ super() }}
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/exporters/../templates/skeleton/null.tpl&quot;, line 73, in block &quot;any_cell&quot;
+    {%- block markdowncell scoped-%}
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/exporters/../templates/html/basic.tpl&quot;, line 68, in block &quot;markdowncell&quot;
+    {{ cell.source  | markdown2html | strip_files_prefix }}
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/filters/markdown.py&quot;, line 83, in markdown2html
+    return markdown2html_pandoc(source)
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/filters/markdown.py&quot;, line 87, in markdown2html_pandoc
+    return pandoc(source, &apos;markdown&apos;, &apos;html&apos;, extra_args=[&apos;--mathjax&apos;])
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/utils/pandoc.py&quot;, line 63, in pandoc
+    check_pandoc_version()
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/utils/pandoc.py&quot;, line 104, in check_pandoc_version
+    v = get_pandoc_version()
+  File &quot;/Users/sr320/anaconda/lib/python2.7/site-packages/IPython/nbconvert/utils/pandoc.py&quot;, line 88, in get_pandoc_version
+    raise PandocMissing()
+PandocMissing: Pandoc wasn&apos;t found.
+Please check that pandoc is installed:
+http://johnmacfarlane.net/pandoc/installing.html
 
 </pre>
 </div>
