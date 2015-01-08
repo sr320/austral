@@ -5,3 +5,13 @@
 
   
 Interestingly, the larvae of P. chilensis have a limited potential to disperse long distances, meanwhile C. concholepas larvae can swim for 2 or 3 months. Some working questions could be, Are there differences in GO terms among species and populations? Species with lower potential dispersion has higher frequency of SNPs? Are the mutations linked to genes with specific biological function or specie-specific? Furthermore, I have the oceanographic information such as temperature variation, chlorophyl, winds, etc. 
+
+---
+<img src="http://eagle.fish.washington.edu/cnidarian/skitch/_56__Discovery_Environment_1A5EFBC8.png" alt="_56__Discovery_Environment_1A5EFBC8.png"/>
+
+---
+<img src="http://eagle.fish.washington.edu/cnidarian/skitch/_56__Discovery_Environment_1A5EFBC8.png" alt="_56__Discovery_Environment_1A5EFBC8.png"/>\
+
+--
+
+<img src="http://eagle.fish.washington.edu/cnidarian/skitch/_56__Discovery_Environment_1A5EFDCA.png" alt="_56__Discovery_Environment_1A5EFDCA.png"/>
