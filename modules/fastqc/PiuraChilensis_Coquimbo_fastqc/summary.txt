@@ -1,0 +1,11 @@
+PASS	Basic Statistics	PiuraChilensis_Coquimbo.fastq
+FAIL	Per base sequence quality	PiuraChilensis_Coquimbo.fastq
+PASS	Per sequence quality scores	PiuraChilensis_Coquimbo.fastq
+FAIL	Per base sequence content	PiuraChilensis_Coquimbo.fastq
+FAIL	Per base GC content	PiuraChilensis_Coquimbo.fastq
+FAIL	Per sequence GC content	PiuraChilensis_Coquimbo.fastq
+WARN	Per base N content	PiuraChilensis_Coquimbo.fastq
+WARN	Sequence Length Distribution	PiuraChilensis_Coquimbo.fastq
+WARN	Sequence Duplication Levels	PiuraChilensis_Coquimbo.fastq
+WARN	Overrepresented sequences	PiuraChilensis_Coquimbo.fastq
+FAIL	Kmer Content	PiuraChilensis_Coquimbo.fastq
