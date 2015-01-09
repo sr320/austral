@@ -1,6 +1,0 @@
-
-[2015-01-08 14:15:35] Beginning TopHat run (v2.0.13)
------------------------------------------------
-[2015-01-08 14:15:35] Checking for Bowtie
-  Bowtie 2 not found, checking for older version..
-Error: Bowtie not found on this system.
