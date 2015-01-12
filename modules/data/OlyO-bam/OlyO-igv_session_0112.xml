@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Session genome="http://eagle.fish.washington.edu/cnidarian/OlyO_Pat_PacBio_10k_contigs.fa" hasGeneTrack="false" hasSequenceTrack="true" locus="OlyO_Pat_PacBio_10k_contig_257:6388-7653" version="8">
+    <Resources>
+        <Resource path="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_1600_2.bam"/>
+        <Resource path="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Femalemix_108a.bam"/>
+        <Resource path="http://eagle.fish.washington.edu/cnidarian/Olytranv2_OlyPacBio_v02.gff"/>
+        <Resource path="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_400_2.bam"/>
+        <Resource path="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Malemix_106a.bam"/>
+        <Resource path="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Femalemix_106A_R1.bam"/>
+        <Resource path="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_1000_2.bam"/>
+        <Resource path="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_400_1.bam"/>
+        <Resource path="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Femalemix_106a.bam"/>
+        <Resource path="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Malemix_108a.bam"/>
+        <Resource path="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Malemix_106A_R1.bam"/>
+        <Resource path="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Malemix_108A_R1.bam"/>
+        <Resource path="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_2200_2.bam"/>
+        <Resource path="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Femalemix_108A_R1.bam"/>
+        <Resource path="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_2000_1.bam"/>
+    </Resources>
+    <Panel height="1475" name="Panel1421080616104" width="2543">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;1314.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="40" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Femalemix_106a.bam_coverage" name="Ol_Femalemix_106a.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="205.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Femalemix_106a.bam" name="Ol_Femalemix_106a.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="90" name="Panel1421080642103" width="2543">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" height="40" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Femalemix_106A_R1.bam_coverage" name="Ol_Femalemix_106A_R1.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Femalemix_106A_R1.bam" name="Ol_Femalemix_106A_R1.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="1475" name="Panel1421080660082" width="2543">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;1213.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Femalemix_108a.bam_coverage" name="Ol_Femalemix_108a.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="183.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Femalemix_108a.bam" name="Ol_Femalemix_108a.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="90" name="Panel1421080673202" width="2543">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Femalemix_108A_R1.bam_coverage" name="Ol_Femalemix_108A_R1.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Femalemix_108A_R1.bam" name="Ol_Femalemix_108A_R1.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="1475" name="Panel1421080686169" width="2543">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;4323.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_400_1.bam_coverage" name="Ol_larv_400_1.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="537.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_400_1.bam" name="Ol_larv_400_1.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="1475" name="Panel1421080698398" width="2543">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;269.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_400_2.bam_coverage" name="Ol_larv_400_2.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="110.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_400_2.bam" name="Ol_larv_400_2.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="1475" name="Panel1421080715267" width="2543">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;337.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_1000_2.bam_coverage" name="Ol_larv_1000_2.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="125.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_1000_2.bam" name="Ol_larv_1000_2.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="1475" name="Panel1421080728325" width="2543">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;109.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_1600_2.bam_coverage" name="Ol_larv_1600_2.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="86.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_1600_2.bam" name="Ol_larv_1600_2.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="1475" name="Panel1421080741559" width="2543">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;1863.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_2000_1.bam_coverage" name="Ol_larv_2000_1.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="609.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_2000_1.bam" name="Ol_larv_2000_1.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="1475" name="Panel1421080756054" width="2543">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;240.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_2200_2.bam_coverage" name="Ol_larv_2200_2.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="84.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_larv_2200_2.bam" name="Ol_larv_2200_2.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="1475" name="Panel1421080770036" width="2543">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;1728.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Malemix_106a.bam_coverage" name="Ol_Malemix_106a.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="385.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Malemix_106a.bam" name="Ol_Malemix_106a.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="117" name="Panel1421080783684" width="2543">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Malemix_106A_R1.bam_coverage" name="Ol_Malemix_106A_R1.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Malemix_106A_R1.bam" name="Ol_Malemix_106A_R1.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="1475" name="Panel1421080797222" width="2543">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;1459.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Malemix_108a.bam_coverage" name="Ol_Malemix_108a.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="308.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Malemix_108a.bam" name="Ol_Malemix_108a.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="117" name="Panel1421080810021" width="2543">
+        <Track altColor="0,0,178" autoScale="true" color="175,175,175" colorScale="ContinuousColorScale;0.0;10.0;255,255,255;175,175,175" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Malemix_108A_R1.bam_coverage" name="Ol_Malemix_108A_R1.bam Coverage" showReference="false" snpThreshold="0.2" sortable="true" visible="true">
+            <DataRange baseline="0.0" drawBaseline="true" flipAxis="false" maximum="10.0" minimum="0.0" type="LINEAR"/>
+        </Track>
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://owl.fish.washington.edu/eimd/austral/data/OlyO-bam/Ol_Malemix_108A_R1.bam" name="Ol_Malemix_108A_R1.bam" showSpliceJunctions="false" sortable="true" visible="true">
+            <RenderOptions colorByTag="" colorOption="UNEXPECTED_PAIR" flagUnmappedPairs="false" groupByTag="" maxInsertSize="1000" minInsertSize="50" shadeBasesOption="QUALITY" shadeCenters="true" showAllBases="false" sortByTag=""/>
+        </Track>
+    </Panel>
+    <Panel height="448" name="FeaturePanel" width="2543">
+        <Track altColor="0,0,178" autoScale="false" color="0,0,178" displayMode="COLLAPSED" featureVisibilityWindow="-1" fontSize="10" id="Reference sequence" name="Reference sequence" sortable="false" visible="true"/>
+        <Track altColor="0,0,178" autoScale="false" clazz="org.broad.igv.track.FeatureTrack" color="0,0,178" displayMode="EXPANDED" featureVisibilityWindow="-1" fontSize="10" id="http://eagle.fish.washington.edu/cnidarian/Olytranv2_OlyPacBio_v02.gff" name="Olytranv2_OlyPacBio_v02.gff" renderer="BASIC_FEATURE" sortable="false" visible="true" windowFunction="count"/>
+    </Panel>
+    <PanelLayout dividerFractions="0.008,0.04622222222222222,0.088,0.12977777777777777,0.16977777777777778,0.21511111111111111,0.2568888888888889,0.2986666666666667,0.3413333333333333,0.3893333333333333,0.4275555555555556,0.472,0.5146666666666667,0.5582222222222222,0.5973333333333334"/>
+    <HiddenAttributes>
+        <Attribute name="DATA FILE"/>
+        <Attribute name="DATA TYPE"/>
+        <Attribute name="NAME"/>
+    </HiddenAttributes>
+</Session>
