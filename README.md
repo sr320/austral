@@ -8,6 +8,9 @@
 ---
 #See [Wiki](https://github.com/sr320/austral/wiki) for Syllabus and more.
 
+
+A zip file of the wiki is included in the main repo also.
+
 ---
 
 _Instructor_:      
